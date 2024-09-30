@@ -20,6 +20,8 @@ color("blue") translate([-37, 19, 42]) prismoid(size1=[10,42], size2=[10,40], h=
 
 color("purple") translate([-20, 35, 42]) prismoid(size1=[44,10], size2=[40,10], h=20, shift=[40,-42]);
 
+color("grey") translate([-20, 19, 42]) prismoid(size1=[44,42], size2=[18,18], h=15, shift=[20,-20]);
+
 color("orange") difference(){
 translate([20,20-42,42+20]) rotate([0,180,0]) prismoid(size1=[40,40], size2=[41,40], h=5, shift=[10,10]);
     #translate([20,-22,42+20-5]) rotate([0,0,90]) cylinder(r=3,h=5,$fn=16);
